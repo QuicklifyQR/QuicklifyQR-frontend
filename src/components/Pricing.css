@@ -1,0 +1,73 @@
+.App {
+    box-sizing: border-box;
+  }
+  
+
+  
+  .app-wrapper {
+      display: flex;  
+    flex-wrap: wrap;  
+      align-items: center;
+      justify-content: space-around;
+    height: 100vh;
+    padding: 2rem;
+    overflow: auto;
+    border-color: #1224ca;
+  }
+  
+  .card {
+    background-color: #f4f7f8;
+    border-radius: 2rem;
+    border-width: thick;
+    border-color: #2674e9;
+    margin-bottom: 1rem;
+      max-width: 300px;
+    padding: 1rem 0;
+    position: relative;
+    height: 80%;
+    width: 100%;
+  }
+    .most-popular {
+      font-size: 15px;
+      font-weight: 700;
+      background-color: #be271d;
+      color: #fff;
+      padding: .25em 1rem;
+      text-transform: uppercase;
+    }
+      
+    
+    .basic {
+     border-top: 6px solid #3498db; 
+    }
+    
+    .medium {
+     border-top: 6px solid #9b59b6; 
+    }
+    
+    .pro {
+     border-top: 6px solid #f1c40f; 
+    
+    }
+  
+  .cardprice {    
+      padding: 15px;
+    }
+    
+    
+   .card-billing, p {
+        margin-bottom: .5rem;
+      }
+      
+   .price {
+        font-size: 32px;
+        font-weight: 700;
+      }
+    
+    
+    .card-features {
+      min-height: 150px;
+    }
+
+  
+    
